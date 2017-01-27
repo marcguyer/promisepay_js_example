@@ -97,7 +97,7 @@
     if (empty($auth_token)) {
         // get a new token server-side
         ?>
-        <h1>Request Auth Token <small><code>GET /token_auths</code></small></h1>
+        <h1>Request Auth Token <small><code>POST /token_auths</code></small></h1>
 
         <p>
             This is done server-side with marketplace Username and API Key.
